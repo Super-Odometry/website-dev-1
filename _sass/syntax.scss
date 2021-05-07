@@ -297,7 +297,23 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 8px;
+  font-size: 7px;
+  font-weight: bold;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-copy {
+  /*background-color: #DC143C;*/
+  background-color: #357DA0;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 7px;
   font-weight: bold;
   margin: 2px 1px;
   cursor: pointer;
@@ -395,5 +411,21 @@
       margin: 2px 1px;
       cursor: pointer;
       border-radius: 5px;
+  }
+
+  .button-copy {
+    /*background-color: #DC143C;*/
+    background-color: #357DA0;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
   }
 }
